@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">InventoryApp</string>
+    <!-- Login Screen & Register strings-->
+    <string name="welcome">Welcome! Please sign in.</string>
+    <string name="user_password">Password: </string>
+    <string name="sign_in">Sign in</string>
+    <string name="register_user">Register New User</string>
+    <string name="new_name">Choose a username: </string>
+    <string name="new_email">Enter email: </string>
+    <string name="new_password">Choose a new password</string>
+    <string name="new_phone">Enter a phone number: </string>
+
+    <!-- Inventory Item Screens strings-->
+    <string name="home_screen_title">Inventory Database Home</string>
+    <string name="add_item">Add Item</string>
+    <string name="enter_item">Enter Item Name</string>
+    <string name="enter_qty">Enter Quantity</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="update_item">Update Item</string>
+    <string name="increase">+</string>
+    <string name="decrease">-</string>
+
+    <!-- SMS Permissions -->
+    <string name="sms_request">Enable SMS Permission</string>
+    <string name="sms_deny">Remove SMS Permission</string>
+    <string name="sms_permissions">This application requires permission to send SMS notifications.
+    When an inventory item reaches 0 quantity, an alert will be sent via SMS</string>
+
+    <!--Back button-->
+    <string name="back_btn">BACK</string>
+
+</resources>

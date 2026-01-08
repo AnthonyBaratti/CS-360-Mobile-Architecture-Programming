@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btnBackAddItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_btn"/>
+
+    <EditText
+        android:id="@+id/editItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_item"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/editItemQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_qty"
+        android:inputType="number"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/editItemDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_description"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"/>
+
+    <Button
+        android:id="@+id/btnAddItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_item"
+        android:layout_gravity="center"/>
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp">
+
+
+    <!-- Back button -->
+
+    <Button
+        android:id="@+id/register_back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:minHeight="48dp"/>
+
+
+    <!--Enter name -->
+    <TextView
+        android:id="@+id/new_name"
+        android:text="@string/new_name"
+        android:textSize="28sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_back_btn"
+        android:paddingTop="12dp"
+        android:labelFor="@id/edit_new_name"
+    />
+
+    <EditText
+        android:id="@+id/edit_new_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_name"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"/>
+
+    <!--Enter Email-->
+    <TextView
+        android:id="@+id/new_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="@string/new_email"
+        android:layout_below="@id/edit_new_name"
+        android:labelFor="@id/edit_new_email"
+        />
+
+    <EditText
+        android:id="@+id/edit_new_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_email"
+        android:inputType="textEmailAddress"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"
+        />
+
+    <!-- Enter Password -->
+    <TextView
+        android:id="@+id/new_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_new_email"
+        android:textSize = "28sp"
+        android:text="@string/new_password"
+        android:labelFor="@id/edit_new_password"/>
+    <EditText
+        android:id="@+id/edit_new_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_password"
+        android:inputType="textPassword"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"/>
+
+    <!-- Enter phone number -->
+    <TextView
+        android:id="@+id/new_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_new_password"
+        android:textSize = "28sp"
+        android:text="@string/new_phone"
+        android:labelFor="@id/edit_new_phone"/>
+
+    <EditText
+        android:id="@+id/edit_new_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_phone"
+        android:inputType="phone"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"/>
+
+    <Button
+        android:id="@+id/register_new_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_user"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edit_new_phone"/>
+
+
+</RelativeLayout>

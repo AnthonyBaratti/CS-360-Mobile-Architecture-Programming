@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_screen_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="557dp"
+        android:padding="5dp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/add_new_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_item"
+            android:minHeight="48dp"/>
+
+        <Button
+        android:id="@+id/btnSmsPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sms_request"
+        android:minHeight="48dp"
+        />
+
+    </LinearLayout>
+
+
+</LinearLayout>
