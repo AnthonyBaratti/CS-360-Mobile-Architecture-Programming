@@ -54,3 +54,6 @@ A native Android Application built in **Java** that allows users to manage perso
 - Open project in Android Studio
 - Sync Gradle Dependencies
 - Run the app on an emulator (or physical android device)
+
+<br><br>
+[Back to e-portfolio](https://github.com/AnthonyBaratti/AnthonyBaratti.github.io)
