@@ -2,6 +2,17 @@
 
 A native Android Application built in **Java** that allows users to manage personal inventory items with full CRUD functionality. The app supports user authentication, local data persistence using **SQLite**, and a clean multi-screen UI built with standard Android components.<br><br>
 
+## Table of Contents
+- [Features](#features)
+- [Application Flow](#application-flow)
+- [Technologies](#technologies)
+- [Project Structure](#project-structure)
+- [Data Persistence](#data-persistence)
+- [Security & Permissions](#security-&-permissions)
+- [How to Run](#how-to-run)
+<br><br>
+[Back to e-portfolio](https://github.com/AnthonyBaratti/AnthonyBaratti.github.io)
+
 ## Features
 
 - User registration and login (local authentication)
@@ -22,7 +33,7 @@ A native Android Application built in **Java** that allows users to manage perso
 
 *NOTE Each user only sees and manages their own inventory data <br>
 
-## Tech Stack
+## Techonologies
 - Java
 - Android (Native)
 - SQLite
@@ -54,6 +65,3 @@ A native Android Application built in **Java** that allows users to manage perso
 - Open project in Android Studio
 - Sync Gradle Dependencies
 - Run the app on an emulator (or physical android device)
-
-<br><br>
-[Back to e-portfolio](https://github.com/AnthonyBaratti/AnthonyBaratti.github.io)
